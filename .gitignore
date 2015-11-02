@@ -1,6 +1,6 @@
-_site
-.sass-cache
+site/_site
+site/.sass-cache
 .jekyll-metadata
-s3_website.yml
+site/s3_website.yml
 node_modules
 .DS_Store
