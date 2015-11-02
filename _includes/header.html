@@ -1,0 +1,17 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" title="{{ site.title }}" href="{{ site.baseurl }}/">
+      <img src="http://blog.sub85.com/assets/sub85-logo.png" width="100">
+    </a>
+
+    <nav class="site-nav">
+        <a href="/hire-me.html"{% if page.title == 'Hire me' %} class="active"{% endif %}>Hire Me</a>
+        <a href="/"{% if page.title != 'Hire me' %} class="active"{% endif %}>Blog</a>
+        <a href="mailto:matt@sub85.com">Contact</a>
+    </nav>
+
+  </div>
+
+</header>

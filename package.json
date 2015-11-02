@@ -1,0 +1,18 @@
+{
+  "name": "sub85blog",
+  "version": "0.1.0",
+  "description": "Blog for sub85.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matthewfedak/sub85blog.git"
+  },
+  "author": "Matthew Fedak",
+  "license": "CC by 4.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-git-describe": "^2.3.2"
+  }
+}
