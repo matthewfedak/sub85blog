@@ -285,7 +285,7 @@ Although this works fine, I and many others would generally advise against this 
 
 ### Resource Orientated
 
-It is not good practice to fetch data through accessing the EntityManager directly in a controller. Controllers should be skinny and that type of application logic should be called through services. Since I am developing a REST API I abstracted this code out into separate resource classes. After all the nature of a REST architecture is that everything.
+It is not good practice to fetch data through accessing the EntityManager directly in a controller. Controllers should be skinny and that type of application logic should be called through services. Since I am developing a REST API I abstracted this code out into separate resource classes. After all the nature of a REST architecture is that everything is a *resource*.
 
 I took inspiration from [A.Sharif](http://busypeoples.github.io/post/slim-doctrine/) who follows this approach in his post on integrating Doctrine 2 and Slim version 2. After having already written this post I then came across the [Slim REST API](https://github.com/jeroenweustink/slim-rest-api) (Slim 2) which goes one step further and abstracts out the relevant code to interact with EntityManager into a related service class which removes the dependency on EntityManager from the resource class.
 
