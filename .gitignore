@@ -6,3 +6,4 @@ node_modules
 site/_includes/data
 site/css/main.min.css
 .DS_Store
+.idea
