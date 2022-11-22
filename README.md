@@ -10,7 +10,8 @@ View the live working version [here](http://blog.sub85.com).
 
 This is basically your average Jekyll install with some html, markdown and Sass hackery.
 
-I added some grunt tasks to save the git commit revision number so I can link to each revision on Github from the site footer and to minify the generated CSS.
+I added some grunt tasks to save the latest git commit revision number and minify what little CSS there is. 
+With this I can link to each revision on Github from the site footer. and to minify the generated CSS.
 
 I deploy it to AWS S3 and handle AWS Cloudfront using the awesome [s3_website](https://github.com/laurilehmijoki/s3_website) gem.
 
@@ -20,7 +21,7 @@ To start development just launch Jekyll from the command line.
 
      cd {project_root}
      cd site
-     bundle exec jekyll serve
+     jekyll serve
 
 ## Saving Changes
 
